@@ -6,7 +6,7 @@ from config import api_hash , api_id , bot_token , luna_key
 
 neko = Client(name="aichan" , api_hash= api_hash , api_id=api_id , bot_token=bot_token)
 
-@neko.on_message(filters.command(["start"] ))
+@neko.on_message(filters.command(["startt"] ))
 async def start(client, message):
     try:
         await message.reply_text(
